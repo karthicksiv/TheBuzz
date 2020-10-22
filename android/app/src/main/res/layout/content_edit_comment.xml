@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EditCommentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/specialMessage"
+            android:layout_width="383dp"
+            android:layout_height="54dp"
+            android:text=""
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Comment"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/postMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_text_view"
+
+            android:layout_marginTop="17dp"
+            android:text="New Comment"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="384dp"
+            android:layout_height="52dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteY="62dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_below="@+id/postMessage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:autofillHints="" />
+
+
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="191dp"
+            android:layout_height="50dp"
+            android:text="@string/cancel"
+            tools:layout_editor_absoluteY="371dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_alignTop="@+id/buttonOk"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/buttonOk"
+            android:layout_toStartOf="@+id/buttonOk" />
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="191dp"
+            android:layout_height="50dp"
+            android:text="@string/post_submit"
+            tools:layout_editor_absoluteY="371dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="162dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

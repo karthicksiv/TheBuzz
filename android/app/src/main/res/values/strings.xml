@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">The Buzz</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="post_info">Create New Post</string>
+    <string name="comment_info">Create New Comment</string>
+    <string name="edit_info">Edit Post</string>
+    <string name="post_submit">Post</string>
+    <string name="post_title">Title</string>
+    <string name="post_message">Message</string>
+    <string name="nl">                 </string>
+    <string name="button_edit">Edit</string>
+    <string name="back_button">Back</string>
+    <string name = "user_name">Name</string>
+    <string name = "email">Email Address</string>
+    <string name = "id">ID</string>
+    <string name = "profile">Profile</string>
+    <string name = "sign_out">Sign Out</string>
+    <string name = "server_client_id">433710337180-q7opn4moc5snp9n62pt7j35ij3ohj1a6.apps.googleusercontent.com</string>
+    <string name = "user_activity">Activity</string>
+
+
+</resources>

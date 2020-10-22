@@ -1,0 +1,18 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Web Front-End",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.7.6",
+    "http-server": "^0.12.3",
+    "jasmine-core": "^3.5.0",
+    "jquery": "^3.5.1",
+    "mvn": "^3.5.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.2",
+    "@types/jquery": "^3.3.38"
+  }
+}
