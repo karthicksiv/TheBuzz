@@ -1,12 +1,5 @@
 # BMW team #
 
-### Team members ###
-Allison Codi\
-Ji Ho Choi\
-Karthick Sivakumar\
-Ryan Stelly\
-Tanqiu Jiang
-
 ## Phase 1 ##
 
 * Quick summary \
