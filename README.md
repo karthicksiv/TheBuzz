@@ -1,32 +1,8 @@
 # BMW team #
 
-## Phase 1 ##
-
-* Quick summary \
-The goal is to start small... a cloud-hosted web system, plus an Android app, so that employees can post
-short messages, and other employees can up-vote and down-vote. But you know this is going to get big...
-real big... so it would be good to do things right the first time, and anticipate the growing pains that you’re
-sure to encounter once everyone realizes that you’ve invented the next big thing. 
-* [Manager Report template](https://piazza.com/class_profile/get_resource/k504tsv65th4np/k6fsnfj4iqy4b7)
-* [Assignment Detail](https://piazza.com/class_profile/get_resource/k504tsv65th4np/k6dvzpkwrlm5hm)
-
-## Tutorial websites ##
-
-* [1.Managing Projects with Trello](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_trello/index.html)
-* [2.Introduction to Git](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_git/index.html)
-* [3.Maven and Databases](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_maven_postgres/index.html)
-* [4.RESTful Web Services](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_spark/index.html)
-* [5.Creating a Web Front-End](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_typescript_jquery/index.html)
-* [6.Building an Android App](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_android_volley/index.html)
-* [7.Unit Testing](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_junit_espresso_jasmine/index.html)
-* [8.Heroku, PaaS, and the 12-Factor App](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_heroku/index.html)
-* [9.Understanding CORS](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_cors/index.html)
-* [10.Maintainable, Beautiful Web Front-Ends](http://www.cse.lehigh.edu/~spear/cse216_tutorials/tut_bootstrap_handlebars/index.html)
-
-## Assignments 
 ### The Back End ###
 
-The student who assumes the role of Back-End Developer for this task will use the Java Spark
+The Back-End Developer will use the Java Spark
 Framework [2](http://sparkjava.com/) to create a dynamic web server. Based on the design from class, the server will provide
 several “routes”, through which users can “POST” new messages by sending JSON, and “like” messages,
 again by sending JSON. The server will return a list of messages, along with a count of “likes”, as JSON.
@@ -65,7 +41,7 @@ The web developer must also produce Jasmine tests for both the logic and the UI 
 
 ### The Admin App ###
 
-If your team has only less than 5 members, the Project Manager will also work as the Admin App
+The Project Manager will also work as the Admin App
 Developer. There is not much work to be done on the admin app, but the work is important. You should
 make sure that a standalone Java program is able to drop tables from the database, recreate tables from the
 database, and do any other maintenance that needs to be done. And, of course, there should be unit tests.
@@ -73,7 +49,7 @@ In addition, the admin app developer should directly assist the other programmer
 through peer programming, the admin app developer can sit with another teammate and provide over-theshoulder advice. Second, while the admin app developer can’t check in code for teammates, the admin
 app developer can help teammates to develop a good testing strategy. 
 
-## Questions to be answered 
+## Keep In Mind: 
 
 ### The Back End ###
 * Describe the REST API endpoints that your team agreed to implement. If this deviates significantly from class discussion, explain why.
@@ -120,4 +96,3 @@ app developer can help teammates to develop a good testing strategy.
 * Describe the most significant obstacle or difficulty your team faced.
 * What is your biggest concern as you think ahead to the next phase of the project?
 * Submit documentation for the user interface for the apps.
-* Submit the completed “CSE216 Project Manager Design Thinking Phase 1” form.
