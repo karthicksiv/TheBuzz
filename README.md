@@ -1,5 +1,3 @@
-# BMW team #
-
 ### The Back End ###
 
 The Back-End Developer will use the Java Spark
